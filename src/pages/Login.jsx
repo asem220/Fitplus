@@ -123,10 +123,10 @@ export default function Login() {
           </button>
         </form>
 
-        <div className="auth-footer">
+        <div className="auth-footer-text">
           <p>
             Нет аккаунта?{' '}
-            <Link to="/register" className="auth-link">
+            <Link to="/register" className="auth-link-btn">
               Зарегистрироваться
             </Link>
           </p>

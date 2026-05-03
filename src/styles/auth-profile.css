@@ -106,6 +106,35 @@
   gap: 1.25rem;
 }
 
+.auth-footer {
+  margin-top: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.auth-footer-text {
+  color: var(--color-gray-500);
+  font-size: 0.9rem;
+}
+
+.auth-link-btn {
+  display: inline-block;
+  color: #6C63FF;
+  background: rgba(108, 99, 255, 0.08);
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.auth-link-btn:hover {
+  background: rgba(108, 99, 255, 0.15);
+  transform: translateY(-1px);
+}
+
 .form-label {
   display: block;
   font-size: 0.875rem;

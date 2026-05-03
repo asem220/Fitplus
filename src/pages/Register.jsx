@@ -145,9 +145,9 @@ export default function Register() {
         </form>
 
         <div className="auth-footer">
-          <p>
+          <p className="auth-footer-text">
             Уже есть аккаунт?{' '}
-            <Link to="/login" className="auth-link">
+            <Link to="/login" className="auth-link-btn">
               Войти
             </Link>
           </p>
