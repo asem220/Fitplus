@@ -1,0 +1,5 @@
+{
+  "name": "Quiz",
+  "description": "A platform for taking interactive quizzes and tests on various topics.",
+  "requestFramePermissions": []
+}

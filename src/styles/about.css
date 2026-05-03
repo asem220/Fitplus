@@ -1,0 +1,121 @@
+.about-page {
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, rgba(61, 213, 255, 0.14), transparent 20%),
+              linear-gradient(180deg, rgba(2, 8, 24, 1), rgba(5, 12, 31, 0.98));
+  padding: 5rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.about-card {
+  width: 100%;
+  max-width: 64rem;
+  margin: 0 auto;
+  background: rgba(7, 18, 41, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 2.5rem;
+  box-shadow: 0 45px 90px -45px rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(20px);
+  padding: 3rem;
+}
+
+@media (min-width: 640px) {
+  .about-card { padding: 4rem; }
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.about-icon-wrapper {
+  background: rgba(61, 213, 255, 0.12);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  color: var(--color-primary);
+}
+
+.about-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.about-title {
+  font-size: clamp(2.5rem, 4vw, 3.4rem);
+  font-weight: 900;
+  color: var(--color-white);
+  letter-spacing: -0.03em;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: rgba(238, 242, 255, 0.82);
+  text-align: center;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+@media (min-width: 768px) {
+  .about-grid { grid-template-columns: 1fr 1fr; }
+}
+
+.about-feature-card {
+  padding: 2.25rem;
+  border-radius: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 30px 70px -40px rgba(0, 0, 0, 0.55);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.about-feature-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(61, 213, 255, 0.22);
+}
+
+.about-feature-card.yellow {
+  background: rgba(61, 213, 255, 0.08);
+}
+
+.about-feature-card.purple {
+  background: rgba(139, 92, 246, 0.08);
+}
+
+.about-feature-icon {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.yellow .about-feature-icon { color: var(--color-primary); }
+.purple .about-feature-icon { color: var(--color-secondary); }
+
+.about-feature-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--color-white);
+  margin-bottom: 0.75rem;
+}
+
+.about-feature-description {
+  font-size: 0.98rem;
+  color: rgba(238, 242, 255, 0.8);
+  line-height: 1.7;
+}
