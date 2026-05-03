@@ -379,12 +379,17 @@
 
 .results-card {
   text-align: center;
-  background-color: white;
+  background-color: rgb(2, 8, 24);    
   border-radius: 3rem;
   padding: 4rem 2.5rem;
   box-shadow: 0 25px 60px -25px rgba(79, 140, 249, 0.22);
   border: 5px solid var(--color-yellow);
 }
+
+
+
+
+
 
 .results-score-big {
   font-size: 4.5rem;
